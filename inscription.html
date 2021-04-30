@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+            <li><a href="index1.html">Accueil</a></li>
+            <li><a href="user.html">Utilisateur</a></li>
+            <li><a href="inscription.html">Inscription</a></li>
+            <li><a href="liste.html ">Liste</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Nous contacter</h1>
+    <form action="contact.html">
+        <fieldset>
+            <div>
+                <label for="surname">Nom:</label>
+                <input type="text" name="surname" id="surname" required>
+            </div>
+            <div>
+                <label for="firstname">Prenom:</label>
+                <input type="text" name="firstname" id="firstname" required>
+            </div>
+            <div>
+                <label for="age"> Age:</label>
+                <input type="number" min="0" name="age" required>
+            </div>
+            <div>
+                <label for="emailinput"> email:</label>
+                <input type="email" name="email" id="emailinput" placeholder="nom@demo.fr">
+            </div>
+            <div>
+                <label for="date">Date de naissance:</label>
+                <input type="date" name="trip-start" id="birthday">
+            </div>
+            <div>
+                <p>Genre</p>
+                <label for="man">Homme:</label>
+                <input type="radio" name="gender" id="Homme">
+                <!--Type radio séléction une seul possibilité-->
+                <label for="women">Femme</label>
+                <input type="radio" name="gender" id="Femme">
+            </div>
+            <div>
+                <label for="man">Rock:</label>
+                <input type="checkbox" name="gender" id="Rock">
+                <!--Type checkbox séléctione plusieur possibilité ou aucune-->
+                <label for="women"></label>Jazz:</label>
+                <input type="checkbox" name="gender" id="Jazz">
+            </div>
+
+
+        </fieldset>
+
+        <div>
+            <input type="submit" value="envoyer">
+        </div>
+    </form>
+
+</body>
+
+</html>

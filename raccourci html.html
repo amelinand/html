@@ -1,0 +1,111 @@
+
+
+<!-- ! + tab pour afficher toute la structure du html -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!--
+    Tout aligner sur la même colonne : Sélectionner + tab
+    Pour revenir : Sélectionner + shift + tab
+    Command + Z retour en arrière
+    Command + shift + z : retour en avant
+    Commade + tab : navigue entre les onglets
+    Command + shift + tab : navigue entre les onglets dans l’autre sens
+    Control + tab : entre les fenêtres
+    Command + d : sélectionne une itération en plus : très utile pour modifier plusieurs variables à la fois (attention sélectionne sans tenir compte de maj minuscules)
+    Commend + t : dans navigateur ouvre nouvel onglet
+    Commend + shift + t : ouvre dernier onglet fermé
+    Option : permet de déplacer une ligne après avec les flèches, marche aussi avec plusieurs lignes
+    Command+ s : sauvegarder son code
+    Option + z : remets tout ton texte de façon à le voir en entier sur ton IDE. 
+    Option + shift + flèche du haut ou du bas : copie une ligne
+    Command + shift + / met en commentaire les text surligné
+    -->
+
+    <!-- div*5 : affiche 5 div-->
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <!--div.red = .red : donne div et sa classe red -->
+    <div class="red"></div>
+    <!--div*5.red : donne 5 div avec la classe red-->
+    <div class="red"></div>
+    <div class="red"></div>
+    <div class="red"></div>
+    <div class="red"></div>
+    <div class="red"></div>
+    <!--div*5.class1.class2 : donne 5 div avec les deux classes-->
+    <div class="red yellow"></div>
+    <div class="red yellow"></div>
+    <div class="red yellow"></div>
+    <div class="red yellow"></div>
+    <div class="red yellow"></div>
+    <!--div*5.class>p*3 : donne 5 div avec la classe contentant 3 paragraphes p.-->
+    <div class="red">
+        <p></p>
+        <p></p>
+        <p></p>
+    </div>
+    <div class="red">
+        <p></p>
+        <p></p>
+        <p></p>
+    </div>
+    <div class="red">
+        <p></p>
+        <p></p>
+        <p></p>
+    </div>
+    <div class="red">
+        <p></p>
+        <p></p>
+        <p></p>
+    </div>
+    <div class="red">
+        <p></p>
+        <p></p>
+        <p></p>
+    </div>
+    <!--header>nav>ul.menu>li*5 : un header possédant un nav avec un ul classe menu avec 5 li-->
+    <header>
+        <nav>
+            <ul class="menu">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </nav>
+    </header>
+    <!--div+p+div : crée une div puis un p puis une div-->
+    <div></div>
+    <p></p>
+    <div></div>
+    <!--input:submit : donne directement le type=submit : <input type="submit" value="">-->
+    <input type="submit" value="">
+    <!--ul>li.list$*5 : incrémente de 1 le numéro de list, un $ = un digit. Deux digits sont équivalents à 00 ; 
+        ils permettent d’incrémenter correctement en cas de tri. -->
+    <ul>
+        <li class="list1"></li>
+        <li class="list2"></li>
+        <li class="list3"></li>
+        <li class="list4"></li>
+        <li class="list5"></li>
+    </ul>
+    <!--a[href=blabla]{nomdulien} : écrit un lien-->
+    <a href="blabla">nomdulien</a>
+    <!-- p>lorem : lorem ipsum, pour faire du remplissage, mime une phrase pour tester son code, ne veut rien dire /// p>lorem100 = affiche 100 mots-->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure nisi ipsa sed, suscipit possimus inventore commodi corrupti obcaecati dolores odit sapiente quidem nobis sunt qui molestiae cupiditate quam rem animi!</p>
+   
+</body>
+</html>
